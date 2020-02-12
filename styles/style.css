@@ -1,5 +1,6 @@
 html {
     background-color: #F5F5F0;
+    font-family: arial, sans-serif;
 }
 
 /* Sidebar */
@@ -23,7 +24,7 @@ html {
 .inner-sidebar h1 {
     padding: 6px 8px 0px 16px;
     font-size: 25px;
-    font: serif;
+    font-weight: 100;
     color: #F5F5F0;
 }
 
@@ -66,5 +67,31 @@ html {
 
 .main {
     margin-left: 230px;
-    padding: 0px 10px;
+    padding: 40px 25% 40px 10px;
+}
+
+.header img {
+    display: inline-block;
+}
+
+.header h1 {
+    display: inline-block;
+    padding: 0px 15px;
+    font-weight: 200;
+    margin-top: 10px;
+}
+
+.quote {
+    background-color: #D9CEB8;
+    border-left: 5px solid #A8A08F;
+    padding: 5px 40px 5px 10px;
+}
+
+.quote p {
+    margin-top: 0;
+}
+
+.quote footer {
+    text-align: right;
+    padding-right: 40px;
 }
